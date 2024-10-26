@@ -1,0 +1,53 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.announcement-bar {
+  background-color: #202020;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  overflow: hidden;
+  white-space: nowrap;
+  top: 0;
+}
+
+.announcement-wrapper {
+  display: inline-block;
+  animation: marquee 60s linear infinite;
+  /* Increase duration for smoother scrolling */
+}
+
+.announcement-text {
+  display: inline-block;
+  margin-right: 50px;
+  /* Space between texts */
+}
+
+.navbar {
+  margin-top: 40px;
+  /* Push the navbar down by the height of the announcement bar */
+}
+
+/* Hide the navbar when the hidden class is applied */
+.navbar.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Media query to apply the behavior only on mobile devices */
+@media (max-width: 768px) {
+  .navbar {
+    transition: transform 0.3s ease-in-out;
+  }
+}

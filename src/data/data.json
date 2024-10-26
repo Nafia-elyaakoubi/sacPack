@@ -1,0 +1,187 @@
+{
+  "Header": {
+    "title": "sac premium",
+    "paragraph": "Sacs en tissu avec fermeture à cordon, personnalisables et réutilisables, protégeant vos boîtes de chaussures et servant de cadeau pour vos clients."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Fidélisation des clients",
+      "Protection durable des boîtes",
+      "Emballage réutilisable",
+      "Solution écologique"
+    ],
+    "Why2": [
+      "Personnalisation complète",
+      "Accessoire élégant et pratique",
+      "Amélioration de l'expérience client",
+      "Adapté à toutes les tailles de chaussures"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-leaf",
+      "name": "Qualité Assurée",
+      "text": "Matériaux écologiques et rigoureux processus de production avec inspection stricte avant livraison."
+    },
+    {
+      "icon": "fa fa-pencil-ruler",
+      "name": "Faible MOQ pour Personnalisation",
+      "text": "Personnalisation facile à partir de 100 pièces. Envoyez-nous votre design."
+    },
+    {
+      "icon": "fa fa-drafting-compass",
+      "name": "Conception et Maquette Gratuites",
+      "text": "Échantillon prêt en 3 jours après confirmation de l'illustration."
+    },
+    {
+      "icon": "fa fa-file-alt",
+      "name": "Échantillon en 3 Jours",
+      "text": "Envoyez votre logo ou design pour créer une maquette."
+    },
+    {
+      "icon": "fa fa-truck",
+      "name": "Livraison Rapide",
+      "text": "3 jours pour les sacs en stock, 7 jours pour les personnalisations (moins de 3000 pièces)."
+    },
+    {
+      "icon": "fa fa-shield-alt",
+      "name": "Garantie de 6 Mois",
+      "text": "Tous nos sacs écologiques bénéficient d'une garantie de 6 mois."
+    }
+]
+
+,
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.png",
+      "text": "Sélectionnez la couleur du sac qui correspond à l’image de votre marque.",
+      "name": "Choix des couleurs"
+    },
+    {
+      "img": "img/testimonials/02.png",
+      "text": "Choisissez la taille du sac adaptée à vos produits (petit, moyen, grand).",
+      "name": "Format et dimensions"
+    },
+    {
+      "img": "img/testimonials/03.png",
+      "text": "Personnalisez le cordon avec différentes couleurs et styles de fermeture.",
+      "name": "Cordon de fermeture"
+    },
+    {
+      "img": "img/testimonials/04.png",
+      "text": "Ajoutez votre logo ou un design unique grâce à différentes options d’impression (sérigraphie, broderie, sublimation).",
+      "name": "Logo & design"
+    },
+    {
+      "img": "img/testimonials/05.png",
+      "text": "Indiquez la quantité souhaitée (commande minimale) et envoyez-nous les détails de votre commande.",
+      "name": "Quantité & Commande"
+    },
+    {
+      "img": "img/testimonials/06.png",
+      "text": "Recevez un échantillon de votre sac personnalisé. Après validation, la production est lancée et nous vous livrons dans les délais convenus.",
+      "name": "Validation & Production"
+    }
+  ],
+  
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Noir",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Blanc",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Rouge",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Gris",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Ain chock, Bine Lamdoune ",
+    "phone": "+212 770-950926",
+    "email": "sacpack.official@gmail.com",
+    "facebook": "https://www.facebook.com/people/Sac-pack/100063820126647/?mibextid=LQQJ4d",
+    "instagram": "https://www.instagram.com/sac_pack/profilecard/?igsh=aHhtOTBweHBqZ25q",
+    "whatsapp": "https://wa.me/212770950926"
+  },
+  "Features": [
+    {
+      "icon": "fa  fa-shield",
+      "title": "Protection",
+      "text": " Protection renforcée pour les boîtes de chaussures pendant la livraison."
+    },
+    {
+      "icon": "fa fa-recycle",
+      "title": "Réutilisable",
+      "text": "Offrez un cadeau à vos clients qu’ils pourront utiliser encore et encore. Cela renforce la satisfaction"
+    },
+    {
+      "icon": "fa fa-hammer   ",
+      "title": "Durable",
+      "text": "Nos sacs en tissu sont conçus pour durer, garantissants ainsi une meilleure utilisation."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Personnalisé",
+      "text": "Sublimez vos sacs avec votre logo ou design unique"
+    }
+  ]
+}

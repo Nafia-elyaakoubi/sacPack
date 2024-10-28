@@ -13,19 +13,21 @@ export const Navigation = (props) => {
     const navbarCollapse = document.getElementsByClassName("navbar-collapse")[0];
     const menuBtn = document.getElementsByClassName("navbar-toggle")[0];
 
+    
     const handleScroll = () => {
       if (!isMobile) {
         return;
       }
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      if (scrollTop > lastScrollTop) {
+      if (scrollTop > lastScrollTop && hasCollapsedClass) {
         // Scroll down
         // navbar.classList.add("hidden");
         navbar.style.backgroundColor = "transparent";
         navbar.style.boxShadow = "none";
         title.style.display = "none";
         // menuBtn.style.backgroundColor = "#333333";
-      } else {
+      }
+      else {
         // Scroll up
         navbar.style.backgroundColor = "white";
         navbar.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.15)";
@@ -49,7 +51,20 @@ export const Navigation = (props) => {
     Array.from(navItems).forEach((item, index) => {
       item.addEventListener('click', handleNavitemClick);
     });
-
+    const btn = document.getElementById("menuBtn");
+    const hasCollapsedClass = btn.classList.contains("collapsed");
+    btn.addEventListener("click", ()=>{
+      if (hasCollapsedClass) {
+        navbar.style.backgroundColor = "white";
+        navbar.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.15)";
+        title.style.display = "block";
+      }
+      else {
+        navbar.style.backgroundColor = "transparent";
+        navbar.style.boxShadow = "none";
+        title.style.display = "none";
+      }
+    });
     window.addEventListener("scroll", handleScroll);
     // navItem.addEventListener("click", handleNavitemClick);
     // na .addEventListener("click", handleNavbarCollapse);

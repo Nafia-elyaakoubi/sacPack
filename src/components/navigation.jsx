@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import './Navigation.css'; // Import the CSS file
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 export const Navigation = (props) => {
+  const isMobile = useMediaQuery("(max-width: 768px)");
   useEffect(() => {
     let lastScrollTop = 0;
     const navbar = document.getElementById("menu");
@@ -12,6 +14,9 @@ export const Navigation = (props) => {
     const menuBtn = document.getElementsByClassName("navbar-toggle")[0];
 
     const handleScroll = () => {
+      if (!isMobile) {
+        return;
+      }
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       if (scrollTop > lastScrollTop) {
         // Scroll down
@@ -50,14 +55,14 @@ export const Navigation = (props) => {
     menuBtn.addEventListener("click", handleNavbarBackground);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [isMobile]);
 
   return (
     <div>
       {/* Announcement Bar */}
       <div className="announcement-bar">
         <div className="announcement-wrapper">
-          {Array.from({ length: 20 }).map((_, index) => (
+          {Array.from({ length: 15 }).map((_, index) => (
             <span key={index} className="announcement-text">Échantillon Gratuit</span>
           ))}
         </div>

@@ -24,7 +24,7 @@
 
 .announcement-wrapper {
   display: inline-block;
-  animation: marquee 60s linear infinite;
+  animation: marquee 30s linear infinite;
   /* Increase duration for smoother scrolling */
 }
 

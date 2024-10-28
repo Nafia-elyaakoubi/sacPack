@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@uidotdev/usehooks": "^2.4.1",
     "node-telegram-bot-api": "^0.63.0",
     "node-webcam": "^0.8.2",
     "puppeteer-core": "^23.6.0",

@@ -7,7 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Utilisations</h2>
           <p>
-          Sacs écologiques Avec Avantages
+          Sacs écologiques Avec Avantages.
           </p>
         </div>
         <div className="row">

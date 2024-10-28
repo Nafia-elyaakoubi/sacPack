@@ -38,13 +38,16 @@ const App = () => {
       <Contact data={landingPageData.Contact} />
       
       {/* Floating WhatsApp Button */}
-<div style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999 }}>
+      <div style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999 }}>
   <FloatingWhatsApp
     phoneNumber="+212 770-950926"
-    accountName="Sac-Pack Support"
+    accountName="Support Sac-Pack"
     avatar="img/what.jpg"
-    statusMessage="Typically replies within 1 hour"
-    chatMessage="Hello! How can we assist you?"
+    statusMessage="Répond généralement en moins d'une heure"
+    chatMessage={` Bonjour et bienvenue chez Sac-Pack ! 
+Vous souhaitez un emballage élégant et personnalisé ?
+Écrivez-nous pour en savoir plus !`}
+    placeholder="Tapez votre message ici ..."
   />
 </div>
 

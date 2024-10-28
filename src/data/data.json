@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "sac premium",
+    "title": "sac packaging",
     "paragraph": "Sacs en tissu avec fermeture à cordon, personnalisables et réutilisables, protégeant vos boîtes de chaussures et servant de cadeau pour vos clients."
   },
   "About": {
@@ -101,32 +101,32 @@
 ,
   "Testimonials": [
     {
-      "img": "img/testimonials/01.png",
+      "img": "img/testimonials/01.jpg",
       "text": "Sélectionnez la couleur du sac qui correspond à l’image de votre marque.",
       "name": "Choix des couleurs"
     },
     {
-      "img": "img/testimonials/02.png",
+      "img": "img/testimonials/02.jpg",
       "text": "Choisissez la taille du sac adaptée à vos produits (petit, moyen, grand).",
       "name": "Format et dimensions"
     },
     {
-      "img": "img/testimonials/03.png",
+      "img": "img/testimonials/03.jpg",
       "text": "Personnalisez le cordon avec différentes couleurs et styles de fermeture.",
       "name": "Cordon de fermeture"
     },
     {
-      "img": "img/testimonials/04.png",
+      "img": "img/testimonials/04.jpg",
       "text": "Ajoutez votre logo ou un design unique grâce à différentes options d’impression (sérigraphie, broderie, sublimation).",
       "name": "Logo & design"
     },
     {
-      "img": "img/testimonials/05.png",
+      "img": "img/testimonials/05.jpg",
       "text": "Indiquez la quantité souhaitée (commande minimale) et envoyez-nous les détails de votre commande.",
       "name": "Quantité & Commande"
     },
     {
-      "img": "img/testimonials/06.png",
+      "img": "img/testimonials/06.jpg",
       "text": "Recevez un échantillon de votre sac personnalisé. Après validation, la production est lancée et nous vous livrons dans les délais convenus.",
       "name": "Validation & Production"
     }

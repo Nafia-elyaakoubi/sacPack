@@ -635,7 +635,7 @@ label {
   }
   .about-text {
     margin-top: 20px;
-    text-align: center;
+    /* text-align: center; */
   }
   #about h2::after {
     position: absolute;
@@ -652,7 +652,7 @@ label {
   }
 
   .contact-info {
-    text-align: center;
+    text-align: inherit;
   }
   
 }

@@ -35,6 +35,7 @@ export const Navigation = (props) => {
     };
 
     const handleNavitemClick = () => {
+      
       const navbarToggler = document.querySelector(".navbar-toggle");
       const navbarCollapse = document.querySelector(".navbar-collapse");
       navbarToggler.classList.add("collapsed");
@@ -67,6 +68,8 @@ export const Navigation = (props) => {
           ))}
         </div>
       </div>
+
+
 
       {/* Navigation Bar */}
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">

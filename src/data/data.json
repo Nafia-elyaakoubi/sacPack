@@ -20,17 +20,17 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Emballage chaussures",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Emballage Bijoux",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Sac Evenement ",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
@@ -73,18 +73,18 @@
     },
     {
       "icon": "fa fa-pencil-ruler",
-      "name": "Faible MOQ pour Personnalisation",
+      "name": "Personnalisation à partir de 100",
       "text": "Personnalisation facile à partir de 100 pièces. Envoyez-nous votre design."
     },
     {
       "icon": "fa fa-drafting-compass",
       "name": "Conception et Maquette Gratuites",
-      "text": "Échantillon prêt en 3 jours après confirmation de l'illustration."
+      "text": "Envoyez votre logo ou design pour créer une maquette."
     },
     {
       "icon": "fa fa-file-alt",
       "name": "Échantillon en 3 Jours",
-      "text": "Envoyez votre logo ou design pour créer une maquette."
+      "text": "Échantillon prêt en 3 jours après confirmation de l'illustration."
     },
     {
       "icon": "fa fa-truck",
@@ -92,9 +92,9 @@
       "text": "3 jours pour les sacs en stock, 7 jours pour les personnalisations (moins de 3000 pièces)."
     },
     {
-      "icon": "fa fa-shield-alt",
-      "name": "Garantie de 6 Mois",
-      "text": "Tous nos sacs écologiques bénéficient d'une garantie de 6 mois."
+      "icon": "fa fa-industry",
+      "name": "Directement de l'Usine",
+      "text": "Profitez d'un prix compétitif, directement de notre atelier."
     }
 ]
 

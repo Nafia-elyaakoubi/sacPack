@@ -19,7 +19,7 @@ export const Navigation = (props) => {
         return;
       }
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      if (scrollTop > lastScrollTop && hasCollapsedClass) {
+      if (scrollTop > lastScrollTop && hasCollapsedClass && !navbarCollapse.classList.contains("in")) {
         // Scroll down
         // navbar.classList.add("hidden");
         navbar.style.backgroundColor = "transparent";

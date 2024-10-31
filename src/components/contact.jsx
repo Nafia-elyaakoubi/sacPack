@@ -194,9 +194,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Sac-Pack. Conçu et développé par{" "}
-            <a href="https://github.com/MOUBI9A" rel="nofollow">
-              MOUBI9A
+            &copy; 2024 Sac-Pack. Conçu et développé par{" "}
+            <a href="https://el-yaakoubi-nafia-portfolio.vercel.app/" rel="nofollow">
+              El Yaakoubi Nafia
             </a>
           </p>
         </div>

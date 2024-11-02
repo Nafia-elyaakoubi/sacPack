@@ -19,8 +19,17 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>À propos</h2>
-              <h3>Sac en tissu :</h3>
-              <p>Chez Sac-Pack, nous sommes spécialisés dans la création de sacs en tissu avec fermeture à cordon, conçus pour offrir à vos produits une protection optimale tout en ajoutant une touche d'élégance. Notre mission est d'offrir aux commerçants de chaussures une solution d'emballage réutilisable, personnalisable, et idéale pour fidéliser les clients.</p>
+              <h3>SAC-PACK votre partenaire D’emballage</h3>
+              <p>En tant qu’atelier de fabrication spécialisé,
+                Sac-Pack vous propose une large gamme de
+                sacs en tissu personnalisables et réutilisables,
+                au meilleur prix. Fabriqués avec soin, nos sacs
+                protègent et valorisent vos produits tout en
+                étant une solution d’emballage durable et
+                élégante. Avec Sac-Pack, vos emballages
+                deviennent un véritable atout marketing,
+                conçu pour fidéliser vos clients et renforcer
+                votre image de marque.</p>
               <h3>Pourquoi choisir Sac-Pack ?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">

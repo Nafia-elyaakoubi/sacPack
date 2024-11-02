@@ -4,12 +4,12 @@ export const Services = (props) => {
   return (
     <div id="services" className="text-center">
       <div className="container">
-        <div className="section-title">
-          <h2>Utilisations</h2>
+                 <div className="section-title">
+          <h2>Avantages</h2>
           <p>
           Sacs écologiques Avec Avantages.
           </p>
-        </div>
+        </div>*
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (

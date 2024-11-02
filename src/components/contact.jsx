@@ -59,7 +59,9 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Demander un deivs</h2>
                 <p>
-                  Veuillez remplir le formulaire ci-dessous pour nous envoyer un email, et nous vous répondrons dans les plus brefs délais.
+                Obtenez votre devis gratuit ! Envoyez-nous
+                vos besoins, et nous vous répondrons
+                rapidement avec une offre personnalisée
                 </p>
               </div>
               <form ref={form} name="sentMessage" validate onSubmit={handleSubmit}>

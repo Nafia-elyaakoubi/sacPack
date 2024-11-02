@@ -7,8 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Couleur Disponible</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Choisissez la teinte qui correspond le mieux à votre marque et à vos besoins.
           </p>
         </div>
         <div id="row">

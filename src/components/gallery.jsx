@@ -4,7 +4,7 @@ import React from "react";
 export const Gallery = (props) => {
   return (
     // </div> changed from <div id="portfolio" className="text-center">
-    <div id="catalogue" className="text-center"> 
+    <div id="portfolio" className="text-center"> 
       <div className="container">
         <div className="section-title">
           <h2>Catalogue</h2>

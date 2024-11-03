@@ -119,7 +119,7 @@
   
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/01.png",
       "name": "Noir",
       "job": "Director"
     },
@@ -130,12 +130,12 @@
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Rouge",
+      "name": "Sac à dos",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Gris",
+      "img": "img/team/04.png",
+      "name": "Sac corde double",
       "job": "Project Manager"
     }
   ],

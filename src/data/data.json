@@ -6,15 +6,16 @@
   "About": {
     "paragraph": "En tant qu’atelier de fabrication spécialisé, Sac-Pack vous propose une large gamme de sacs en tissu personnalisables et réutilisables, au meilleur prix. Fabriqués avec soin, nos sacs  protègent et valorisent vos produits tout en étant une solution d’emballage durable et élégante. Avec Sac-Pack, vos emballages deviennent un véritable atout marketing, conçu pour fidéliser vos clients et renforcer votre image de marque.",
     "Why": [
-      "Renforcez la Fidélité de vos Clients",
-      "Optez pour une Solution Durable et Pratique",
-      "Engagez-vous pour l’Environnement",
-      "Personnalisez votre Image de Marque"
+      "Nous offrons la meilleure qualité",
+      "Des prix raisonnables",
+      "Un large choix de modèles",
+      "Personnalisation facile"
     ],
     "Why2": [
-      "Apportez une Touche Élégante à vos Produits",
-      "Améliorez l’Expérience Client",
-      "Adaptez vos Emballages à Tout Type de Produits"
+      "Livraison rapide et efficace",
+      "Engagement écologique",
+      "Amélioration de l’expérience client",
+      "Adaptation à tout type de produits"
     ]
   },
   "Gallery": [
@@ -67,7 +68,7 @@
       "text": "Envoyez votre logo ou design pour créer une maquette."
     },
     {
-      "icon": "fa fa-file-alt",
+      "icon": "fa fa-clock",
       "name": "Échantillon en 3 Jours",
       "text": "Échantillon prêt en 3 jours après confirmation de l'illustration."
     },
@@ -77,7 +78,7 @@
       "text": "3 jours pour les sacs en stock, 7 jours pour les personnalisations (moins de 3000 pièces)."
     },
     {
-      "icon": "fa fa-industry",
+      "icon": "fa fa-dollar-sign",
       "name": "Directement de l'Usine",
       "text": "Profitez d'un prix compétitif, directement de notre atelier."
     }
@@ -120,12 +121,12 @@
   "Team": [
     {
       "img": "img/team/01.png",
-      "name": "Noir",
+      "name": "Sac fermeture De Bonbons",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Blanc",
+      "name": "Sac corde simple",
       "job": "Senior Designer"
     },
     {
@@ -135,7 +136,7 @@
     },
     {
       "img": "img/team/04.png",
-      "name": "Sac corde double",
+      "name": "Emballage Cosmétique",
       "job": "Project Manager"
     }
   ],

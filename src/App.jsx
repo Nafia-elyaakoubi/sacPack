@@ -9,7 +9,6 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'; // Import the Floating WhatsApp component
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -37,19 +36,24 @@ const App = () => {
 
       <Contact data={landingPageData.Contact} />
       
-      {/* Floating WhatsApp Button */}
-      <div style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999 }}>
-  <FloatingWhatsApp
-    phoneNumber="+212 770-950926"
-    accountName="Support Sac-Pack"
-    avatar="img/what.jpg"
-    statusMessage="Répond généralement en moins d'une heure"
-    chatMessage={` Bonjour et bienvenue chez Sac-Pack ! 
-Vous souhaitez un emballage élégant et personnalisé ?
-Écrivez-nous pour en savoir plus !`}
-    placeholder="Tapez votre message ici ..."
-  />
+{/* Floating WhatsApp Button */}
+{/* Floating WhatsApp Button */}
+<div style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999 }}>
+  <a 
+    href="https://wa.me/212770950926"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ textDecoration: 'none' }}
+  >
+    <img 
+      src="img/whatsapp.png" 
+      alt="Support Sac-Pack" 
+      style={{ borderRadius: '50%', width: '50px', height: '50px' }}
+    />
+  </a>
 </div>
+
+
 
     </div>
   );

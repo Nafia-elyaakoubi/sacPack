@@ -468,6 +468,24 @@ header .intro-text {
   color: #888;
 }
 /* Contact Section */
+#contact .form-group .checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#contact .form-group .checkbox-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  accent-color: #202020; /* Color for the checkbox */
+}
+
+#contact .form-group .checkbox-item label {
+  font-size: 16px;
+  color: #202020;
+}
+
 #contact {
   padding: 50px 0 30px;
   background: #f6f6f6;
